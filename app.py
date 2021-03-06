@@ -2,6 +2,7 @@
 from flask import Flask, render_template, request
 import pickle
 import numpy as np
+from sklean import linearregressor.basemodel
 
 # Load the Random Forest CLassifier model
 filename = 'first-innings-score-lr-model.pkl'
